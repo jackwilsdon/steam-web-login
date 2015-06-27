@@ -1,0 +1,9 @@
+{
+  "name": "steam-web-login",
+  "version": "0.1.0",
+  "main": "lib/steamweb.js",
+  "dependencies": {
+    "jsbn": "0.0.0",
+    "request": "^2.57.0"
+  }
+}
