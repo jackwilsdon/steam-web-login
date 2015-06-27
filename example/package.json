@@ -1,0 +1,12 @@
+{
+  "name": "steam-web-login-example",
+  "version": "0.1.0",
+  "main": "example.js",
+  "scripts": {
+    "start": "node ./example.js"
+  },
+  "dependencies": {
+    "read": "^1.0.6",
+    "read-multiple": "^0.1.0"
+  }
+}
