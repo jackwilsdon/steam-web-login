@@ -1,5 +1,5 @@
 # Endpoints
-### GetRSAKey
+## GetRSAKey
 #### `makeRequest(formData, username, successCallback, errorCallback)`
 ##### Arguments
  - `formData` - Any extra form data for the request.
@@ -7,7 +7,7 @@
  - `successCallback(rsaKey, rsaTimestamp, rawData)` - Called when the RSA key has been retrieved successfully.
  - `errorCallback(err, rawData)` - Called when an error occurs.
 
-### DoLogin
+## DoLogin
 #### `makeRequest(formData, username, password, key, rsatimestamp, successCallback, captchaCallback, emailAuthCallback, errorCallback)`
 ##### Arguments
  - `formData` - Any extra form data for the request.
@@ -23,7 +23,7 @@
  - `emailAuthCallback(emailSteamId, emailDomain, rawData)` - Called when email authentication is required.
  - `errorCallback(err, rawData)` - Called when an error occurs.
 
-### Transfer
+## Transfer
 #### `makeRequest(formData, url, parameters, jar, successCallback, errorCallback)`
 ##### Arguments
  - `formData` - Any extra form data for the request.
@@ -33,7 +33,7 @@
  - `successCallback()` - Called when the user has been transferred.
  - `errorCallback(err)` - Called when an error occurs.
 
-### GetSessionId
+## GetSessionId
 #### `makeRequest(formData, jar, successCallback, errorCallback)`
 ##### Arguments
  - `formData` - Any extra form data for the request.
